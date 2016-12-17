@@ -18,7 +18,7 @@ namespace Durak_next
 
         public bool IsVisible;  // for ai
 
-        public bool Trump;
+        public bool IsTrump;
 
         public Card(int rank, string suit, int faceValue) // method of adding cards to deck
         {
@@ -67,7 +67,7 @@ namespace Durak_next
         {
             if (Suit == s)
                 { 
-                    Trump = true;
+                    IsTrump = true;
                 }
         } // makes this card as trump
     }

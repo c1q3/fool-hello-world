@@ -256,5 +256,5 @@ namespace Durak_next
 
 
     }
-    }
+}
 

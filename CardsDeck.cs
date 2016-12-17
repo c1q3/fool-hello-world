@@ -60,7 +60,7 @@ namespace Durak_next
             {
                 card.BelongsTo = 0;
                 card.IsVisible = false;
-                card.Trump = false;
+                card.IsTrump = false;
             }
         }
 
@@ -115,7 +115,7 @@ namespace Durak_next
             {
                 if (card.BelongsTo == x)
                 {
-                    if (card.Trump)
+                    if (card.IsTrump)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                     }
@@ -157,7 +157,7 @@ namespace Durak_next
                 if (card.BelongsTo > 0 && card.BelongsTo < 5)
                 {
                     //Console.WriteLine(TestMaxValue + " " +card.faceValue);
-                    if (card.Trump)
+                    if (card.IsTrump)
                     {
                         //Console.WriteLine("trump belongs to {0} ",card.BelongsTo);
                         if (card.faceValue < TestMaxValue)
